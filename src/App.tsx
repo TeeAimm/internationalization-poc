@@ -10,7 +10,7 @@ function App() {
   useEffect(()=>{
     const lng = navigator.language;
     i18n.changeLanguage(lng);
-  },[])
+      },[])
   const handleChange = (event: any) => {
     setLanguage(event.target.value)
     i18n.changeLanguage(event.target.value)
@@ -40,7 +40,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {t("Learn React")}
+          {t("Learn-React")}
         </a>
       </header>
     </div>
